@@ -1,9 +1,5 @@
 package Lesson20TryCatch.Task;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.net.SocketException;
-
 public class MainCar {
     public static void main(String[] args) {
         try {
