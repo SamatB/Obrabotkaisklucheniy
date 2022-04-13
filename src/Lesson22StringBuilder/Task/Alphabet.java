@@ -18,7 +18,7 @@ public class Alphabet {
             System.out.println("So, there is a problem...");
         }
 
-        try(FileReader reader = new FileReader("AlphabetAndNumbers.txt")) {
+        try(FileReader reader = new FileReader("AlphabetAndNumber.txt")) {
             Scanner scanner = new Scanner(reader);
             int num = 0;
             while (scanner.hasNextLine()) {
@@ -27,7 +27,7 @@ public class Alphabet {
                 System.out.println(num + ":" + scanner.nextLine());
             }
         } catch (IOException e) {
-            System.out.println("Solve the problem in your self!");
+            System.out.println("Solve the problem by yourself!");
         }
     }
 }
