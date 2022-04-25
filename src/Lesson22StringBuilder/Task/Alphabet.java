@@ -18,7 +18,7 @@ public class Alphabet {
             System.out.println("So, there is a problem...");
         }
 
-        try(FileReader reader = new FileReader("AlphabetAndNumber.txt")) {
+        try(FileReader reader = new FileReader("AlphabetAndNumbers.txt")) {
             Scanner scanner = new Scanner(reader);
             int num = 0;
             while (scanner.hasNextLine()) {
