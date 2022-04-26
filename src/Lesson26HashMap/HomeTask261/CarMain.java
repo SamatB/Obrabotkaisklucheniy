@@ -1,4 +1,4 @@
-package Lesson26HashMap.HomeTask26;
+package Lesson26HashMap.HomeTask261;
 
 import java.util.HashMap;
 import java.util.Map;
