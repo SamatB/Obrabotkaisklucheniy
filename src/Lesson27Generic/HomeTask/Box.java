@@ -37,7 +37,7 @@ public class Box <T>{
                 ", width = " + width + " cm" +
                 ", depth = " + depth + " cm";
     }
-    public static  <T> void generic(Box arg){
-        System.out.println(arg);
+    public static <T> Box<T> generic(Box box){
+        return box;
     }
 }
