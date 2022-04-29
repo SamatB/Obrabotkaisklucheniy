@@ -1,4 +1,4 @@
-package Lesson28Lamda.PracticeTask.HomeTask;
+package Lesson28Lamda.HomeTask;
 
 import java.util.function.UnaryOperator;
 
